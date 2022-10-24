@@ -2646,6 +2646,20 @@ input, select, textarea {
 				width: 100%;
 			}
 
+		.image.headshot {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 60%;
+		}
+			.image.headshot:first-child {
+				margin-top: 0;
+			}
+
+			.image.headshot img {
+				width: 100%;
+			}
+
 		@media screen and (max-width: 736px) {
 
 			.image.fit {
