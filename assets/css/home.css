@@ -1,0 +1,31 @@
+.home p {
+    line-height: 1.5;
+}
+.home h2 {
+    font-size: 2.5rem;
+}
+.home #main > .post {
+    padding: 4rem;
+}
+.home #main .about {
+    padding-bottom: 4rem;
+}
+.about .headshot {
+    top: 0;
+}
+@media (max-width: 399px) {   
+    .about .headshot {
+        display: block;
+        float: none;
+        width: 100%;
+        max-width: none;
+        height: auto;
+        margin: 0 0 2rem 0;
+    }
+}
+.about h2 {
+    text-align: center;
+}
+.posts h2 {
+    text-align: center;
+}
