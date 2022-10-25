@@ -30,3 +30,10 @@
 .posts h2 {
     text-align: center;
 }
+#main > .post .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 2rem;
+}
