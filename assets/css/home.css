@@ -12,6 +12,7 @@
 }
 .about .headshot {
     top: 0;
+    right: 2rem;
 }
 @media (max-width: 399px) {   
     .about .headshot {
@@ -20,7 +21,7 @@
         width: 100%;
         max-width: none;
         height: auto;
-        margin: 0 0 2rem 0;
+        margin: 0 2rem 2rem 2rem;
     }
 }
 .about h2 {
